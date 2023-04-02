@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+<body>
+<h4>Add User</h4>
+<div class="container">
+    <h4>New User</h4>
+
+    <form>
+        <div class="form-group">
+            <div class="col-xs-2">
+                <label>name</label>
+                <input class="form-control" id="name1" type="text">
+            </div>
+            <br>
+            <div class="col-xs-2">
+                <label>password</label>
+                <input class="form-control" id="pass1" type="text">
+            </div>
+        </div>
+        <button id="button1" type="button" onclick="myFunction();" class="btn btn-primary">Submit</button>
+    </form>
+    <a href="/security/all">Login</a>
+</div>
+</body>
+<script  src="/js/main.js" type="text/javascript"></script>
+</html>
